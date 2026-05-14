@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environments
+.venv/
+venv/
+env/
+
+# Local outputs we don't want to publish
+outputs/
+models/
+*.npy
+*.npz
+*.keras
+*.pkl
+*.joblib
+*.h5
+
+# Editors
+.idea/
+.vscode/
