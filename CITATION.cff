@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying manuscript."
+type: software
+title: "Dynamic Model Selection Ensemble Learning for Energy Disaggregation in Agricultural Systems"
+authors:
+  - family-names: Khaleghy
+    given-names: Hossein
+    email: h.khaleghy1@universityofgalway.ie
+    affiliation: "School of Computer Science, University of Galway"
+  - family-names: Clifford
+    given-names: Eoghan
+    email: eoghan.clifford@universityofgalway.ie
+    affiliation: "School of Engineering, University of Galway"
+  - family-names: Mason
+    given-names: Karl
+    email: karl.mason@universityofgalway.ie
+    affiliation: "School of Computer Science, University of Galway"
+repository-code: "https://github.com/HosseinKhaleghy/dairy-farm-pv-disaggregation"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Dynamic Model Selection Ensemble Learning for Energy Disaggregation in Agricultural Systems"
+  authors:
+    - family-names: Khaleghy
+      given-names: Hossein
+    - family-names: Clifford
+      given-names: Eoghan
+    - family-names: Mason
+      given-names: Karl
+  journal: "PLOS ONE"
+  status: "under review"
