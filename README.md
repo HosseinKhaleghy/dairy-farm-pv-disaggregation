@@ -10,6 +10,11 @@ It contains the analysis notebook used in the paper and the photovoltaic inputs 
 .
 ├── notebook.ipynb              Analysis notebook: training, evaluation, ensemble.
 ├── data/
+│   ├── consumption.csv         Hourly farm electricity consumption from the
+│   │                           agent based model for the 13 simulated
+│   │                           farms, with a timestamp column, a uniform
+│   │                           PV reference signal used in Scenario 1, and
+│   │                           per farm consumption and net load columns.
 │   ├── pv-battery/             SAM photovoltaic plus battery output for the
 │   │                           13 simulated farms in Scenario 3, hourly
 │   │                           resolution, one CSV per farm
@@ -28,6 +33,7 @@ It contains the analysis notebook used in the paper and the photovoltaic inputs 
 ## Contents
 
 - `notebook.ipynb` implements the four base learners (GBRT, 1D CNN, CNN BiLSTM and Transformer) and the dynamic hour wise ensemble selection scheme described in the paper. It also computes the leave one out ablation on the model pool and the statistical validation reported in Section 5 of the manuscript.
+- `data/consumption.csv` provides the agent based hourly electricity consumption time series for the 13 simulated dairy farms. It also includes a uniform photovoltaic reference signal used as the generation side in Scenario 1, and per farm net load columns for that scenario.
 - `data/pv-battery/` provides the SAM derived photovoltaic plus battery time series for the 13 simulated farms used in Scenario 3 of the paper, the heterogeneous PV with battery storage scenario.
 - `data/dairy-farm-pvs/` provides the SAM derived photovoltaic time series for the 13 simulated farms used in Scenario 2, the heterogeneous PV scenario.
 
