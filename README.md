@@ -41,8 +41,8 @@ It contains the analysis notebook used in the paper and the photovoltaic inputs 
 
 - Python: tested with Python 3.11.
 - Package versions: see `requirements.txt`. Install with `pip install -r requirements.txt` in a fresh environment.
-- Hardware: the notebook runs on a CPU only workstation. A GPU is not required. The deep models (1D CNN, CNN BiLSTM, Transformer) each fit in approximately one to two minutes on a recent laptop class CPU, and GBRT in well under a minute.
-- Approximate end to end runtime on a CPU only workstation: 10 to 20 minutes for the full notebook including Optuna hyperparameter search (30 trials per model), and under 5 minutes if the Optuna cells are skipped and the hyperparameters reported in Table 4 of the manuscript are used directly.
+- Hardware: the notebook runs on a CPU only workstation. A GPU is not required. 
+- 
 - Random seed: the notebook fixes a single seed (42) before training so that runs on the same machine are reproducible up to small numerical differences. Cross machine reproducibility of deep learning runs depends on the TensorFlow build and is not guaranteed bit for bit.
 
 ## How to use
